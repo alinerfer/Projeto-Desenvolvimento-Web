@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --bg-color-lightest: RGB(255, 255, 255);
+    --bg-color-light: RGB(214, 212, 232);
+    --bg-color-mid: RGB(143, 138, 192);
+    --bg-color-dark: RGB(23, 20, 53);
+    --bg-color-darkest: RGB(7, 6, 22);
+    --bg-color-brand: RGB(246, 47, 99);
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header a {
+    color: var(--bg-color-darkest);
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: var(--bg-color-lightest);
+    transition: .5s;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--bg-color-brand);
+    color: var(--bg-color-darkest);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header h1 {
+    margin: 10rem;
+    padding: 1rem;
+}
+
+.header ul {
+    margin: 5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    gap: 4rem;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color-light);
+    padding: 18em;
+}
+
+.main h1 {
+    font-size: 6.5rem;
+    font-family: "Dancing Script", cursive;
+}
+
+.main h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.main p {
+    font-size: 2rem;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color-lightest);
+}
+
+.section h1 {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    margin: 10rem 0rem 0rem 0rem;
+    padding: 2rem;
+    font-size: 6rem;
+    color: var(--bg-color-dark);
+}
+
+.section p {
+    padding: 0rem 15rem 4rem 15rem;
+    font-size: 2rem;
+    color: var(--bg-color-darkest);
+}
+
+.footer {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--bg-color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer h1 {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.footer a {
+    color: var(--bg-color-lightest);
+    font-size: 2.5rem;
+    margin: 5rem;
+    padding: 1rem;
+}
+
+.footer a:hover {
+    color: var(--bg-color-brand);
+    transition: .5s;
+}
+
+
+
+

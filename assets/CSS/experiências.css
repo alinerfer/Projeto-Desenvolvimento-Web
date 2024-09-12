@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color-lightest: RGB(255, 255, 255);
+    --bg-color-light: RGB(214, 212, 232);
+    --bg-color-mid: RGB(143, 138, 192);
+    --bg-color-dark: RGB(23, 20, 53);
+    --bg-color-darkest: RGB(7, 6, 22);
+    --bg-color-brand: RGB(246, 47, 99);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.header a {
+    color: var(--bg-color-darkest);
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: var(--bg-color-lightest);
+    transition: .5s;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--bg-color-brand);
+    color: var(--bg-color-darkest);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header h1 {
+    margin: 10rem;
+    padding: 4rem;
+}
+
+.header ul {
+    margin: 5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: flex;
+    gap: 4rem;
+}
+
+.main {
+    width: 100%;
+    height: 75vh;
+    background-color: var(--bg-color-light);
+    color: var(--bg-color-darkest);
+    padding: 7rem;
+}
+
+.main h1 {
+    font-size: 6.5rem;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+}
+
+.main dl {
+    font-size: 1.8rem;
+    padding: 2rem 5rem;
+}
+
+.main dt {
+    font-weight: 900;
+}
+
+.main dd {
+    padding: 1rem 0 1rem 2rem;
+}
+
+.article {
+    width: 100%;
+    height: 75vh;
+    background-color: var(--bg-color-lightest);
+    color: var(--bg-color-darkest);
+    padding: 3rem;
+}
+
+.article h1 {
+    font-size: 6.5rem;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    padding: 0 0 3rem 0;
+}
+
+.article dl {
+    font-size: 1.8rem;
+    padding: 2rem 8.5rem;
+}
+
+.article dt {
+    font-weight: 900;
+}
+
+.article dd {
+    padding: 1rem 0 1rem 2rem;
+}
+
+.section {
+    width: 100%;
+    height: 90vh;
+    background-color: var(--bg-color-light);
+    padding: 2rem;
+}
+
+.section h1 {
+    font-size: 6.5rem;
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+.section p {
+    font-size: 1.8rem;
+    padding: 2rem 8.5rem;
+}
+
+.footer {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--bg-color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer h1 {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.footer a {
+    color: var(--bg-color-lightest);
+    font-size: 2.5rem;
+    margin: 5rem;
+    padding: 1rem;
+}
+
+.footer a:hover {
+    color: var(--bg-color-brand);
+    transition: .5s;
+}
